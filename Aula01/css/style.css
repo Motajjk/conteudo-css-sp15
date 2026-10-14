@@ -1,0 +1,31 @@
+body {
+    background-color: ghostwhite;
+}
+
+/* Chamando seletor dentro de classe */
+
+h4.ex1 {
+    color:cornflowerblue;
+    text-align: center;
+}
+
+p.ex1 {
+    text-align: center;
+}
+
+/* Utilizando seletor universal */
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Agrupando seletores */
+
+.ex2-h2, .ex2-h3 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.ex2-p {
+    text-align: center;
+}
