@@ -1,0 +1,18 @@
+p {
+    color:blueviolet;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/Gojoutahime.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+}
+
+/* Definindo background com propriedade abreviada */
+
+p.ex2 {
+    background: #5b74a3 url("../img/grass-img.png") no-repeat center;
+    color: ghostwhite;
+}
