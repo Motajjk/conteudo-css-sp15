@@ -1,0 +1,96 @@
+body {
+    background-color: #0B0D0E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F2F2F2;
+}
+
+.order, .flex-grow, .flex-shrink, .flex-basis, .flex, .align-self {
+    background-color: #0B0D0E;
+    border: 2px solid #263038;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.order div {
+    background-color: #121516;
+    border: 2px solid #263038;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.flex-grow div {
+    background-color: #121516;
+    border: 2px solid #263038;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.flex-shrink div {
+    background-color: #121516;
+    border: 2px solid #263038;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.flex-basis div {
+    background-color: #121516;
+    border: 2px solid #263038;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.flex div {
+    background-color: #121516;
+    border: 2px solid #263038;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Utilizando o align-self */
+
+.align-self {
+    height: 200px;
+}
+
+.align-self div {
+    background-color: #121516;
+    border: 2px solid #263038;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#as-item3 {
+    align-self: center;
+}
